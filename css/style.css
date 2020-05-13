@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Marat Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Marat Sans Regular"), url('../font/Marat Sans Regular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Italic'), url('../font/Marat Sans Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Thin'), url('../font/Marat Sans Thin.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Thin Italic'), url('../font/Marat Sans Thin Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans ExtraLight'), url('../font/Marat Sans ExtraLight.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans ExtraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans ExtraLight Italic'), url('../font/Marat ExtraLight Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Light'), url('../font/Marat Sans Light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Light Italic'), url('../font/Marat Sans Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Medium'), url('../font/Marat Sans Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Medium Italic'), url('../font/Marat Sans Medium Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans DemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans DemiBold'), url('../font/Marat Sans Demibold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans DemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans DemiBold Italic'), url('../font/Marat Sans DemiBold Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Bold'), url('../font/Marat Sans Bold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Bold Italic'), url('../font/Marat Sans Bold Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans ExtraBold'), url('../font/Marat Sans ExtraBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans ExtraBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans ExtraBold Italic'), url('../font/Marat Sans ExtraBold Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Black'), url('../font/Marat Sans Black.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Marat Sans Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Marat Sans Black Italic'), url('../font/Marat Black Italic.woff') format('woff');
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Marat Sans Regular';
+    }
+
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .header-100{
+        width: 100%;
+        background: black;
+    }
+
+    .header{
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .header img{
+        display: block;
+        width: 250px;
+    }
+
+    .header ul{
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .header ul li{
+        list-style-type: none;
+    }
+
+    .header ul li a{
+        text-decoration: none;
+        padding: 5px 20px;
+        color: #b9b7b5;
+        font-size: 17px;
+        font-family: 'Marat Sans Light';
+        letter-spacing: 1px;
+    }
+
+    .header ul li a:hover{
+        color: #fff;
+    }
+
+    .publish{
+        border-right: 1px solid #b9b7b5;
+    }
+
+    .title{
+        margin: 0 auto;
+        max-width: 950px;
+    }
+
+    .title h2{
+        font-family: 'Libre Caslon Text', serif;
+        margin-top: 40px;
+        color: #282828;
+        font-size: 40px;
+    }
+
+    .title hr{
+        margin: 20px 0;
+    }
+
+    .post{
+        max-width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post-margin{
+        margin-top: 50px;
+    }
+
+    .conteudo{
+        margin-right: 30px;
+        min-width: 500px;
+    }
+
+    .conteudo h3{
+        color: #7b7d7e;
+        font-family: 'Marat Sans ExtraLight';
+        letter-spacing: 1px;
+    }
+
+    .conteudo h2{
+        margin-top: 5px;
+        color: #333836;
+        letter-spacing: 0.5px;
+    }
+
+    .conteudo h4{
+        margin-top: 10px;
+        color: #969696;
+        font-family: 'Marat Sans ExtraLight';
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
+    .imagem img{
+        width: 170px;
+    }
+
+    .conteudo-2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .conteudo-2 p{
+        color: #333836;
+        letter-spacing: 0.5px;
+    }
+
+    .conteudo-2 span{
+        margin-top: 10px;
+        color: #969696;
+        letter-spacing: 0.5px;
+    }
+
+    .conteudo-2 img{
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .footer-100{
+        margin-top: 30px;
+        width: 100%;
+        background: black;
+    }
+
+    .footer{
+        padding: 40px 0 15px 0;
+        max-width: 700px;
+    }
